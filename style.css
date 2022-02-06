@@ -1,0 +1,13 @@
+.Top{
+    min-height:20%;
+    height:20vh;
+    border:solid pink 1px;
+}
+.Body{
+    min-height:60%;
+    height:60vh;
+}
+.Footer{
+    min-height:20%;
+    height:20vh;
+}
