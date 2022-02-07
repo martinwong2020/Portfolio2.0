@@ -1,13 +1,60 @@
+body{
+    margin:0;
+}
 .Top{
     min-height:20%;
     height:20vh;
     border:solid pink 1px;
 }
-.Body{
+#TopImage{
+    height:5vh;
+}
+/* .Body{
     min-height:60%;
     height:60vh;
-}
+} */
 .Footer{
     min-height:20%;
     height:20vh;
+}
+.BodyHeader{
+    display:flex;
+    justify-content:center;
+}
+
+/* Body image */
+.imageGallery{
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+    grid-gap:2px;
+    grid-template-areas:
+    'pos1 pos2 pos3'
+    'pos4 pos5 pos6';
+    /* object-fit:fill; */
+    border:solid yellow 2px;
+}
+.img1{
+    grid-area:pos1;
+}
+.img2{
+    grid-area:pos2;
+}
+.img3{
+    grid-area:pos3;
+    
+}
+.img4{
+    grid-area:pos4;
+}
+.img5{
+    grid-area:pos5;
+}
+.img6{
+    grid-area:pos6;
+}
+.image{
+    width:100%;
+    max-width:100%;
+    max-height:100%;
 }
